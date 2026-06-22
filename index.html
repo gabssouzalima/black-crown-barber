@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Crown Barber</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="header-inner">
+            <a href="#" class="logo">
+                <div class="logo-icon"><i data-lucide="crown" class="icon-md"></i></div>
+                <div>
+                    <div class="logo-text-main">BLACK CROWN</div>
+                    <div class="logo-text-sub">Barber</div>
+                </div>
+            </a>
+            <nav>
+                <a href="#hero">Home</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <button class="header-cta">Agendar Horário</button>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <i data-lucide="menu" class="icon-lg"></i>
+            </button>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#hero">Home</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+            <button class="btn-primary mt-16">Agendar Horário</button>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-inner">
+            <div class="hero-content">
+                <div class="hero-eyebrow"><span>Premium Barbershop</span></div>
+                <h1 class="hero-title">Seu Visual<br><em>Merece</em><br>Excelência</h1>
+                <p class="hero-text">Há mais de uma década moldando estilos com técnica apurada, produtos premium e uma
+                    experiência que vai muito além do corte. Bem-vindo à Black Crown.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">Agendar Agora <i data-lucide="chevron-right"
+                            class="icon-sm"></i></button>
+                    <button class="btn-outline">Conhecer Serviços</button>
+                </div>
+                <div class="hero-stats">
+                    <div>
+                        <div class="hero-stat-value">10+</div>
+                        <div class="hero-stat-label">Anos de Experiência</div>
+                    </div>
+                    <div>
+                        <div class="hero-stat-value">5.000+</div>
+                        <div class="hero-stat-label">Clientes Atendidos</div>
+                    </div>
+                    <div>
+                        <div class="hero-stat-value">4.9</div>
+                        <div class="hero-stat-label">Estrelas Google</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-wrap">
+                <img src="https://images.unsplash.com/photo-1761931403671-d020a14928d9?w=900&h=1100&fit=crop&auto=format"
+                    alt="Barbeiro profissional trabalhando" />
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="container">
+            <div class="eyebrow"><span>O Que Oferecemos</span></div>
+            <h2 class="section-title">Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i data-lucide="scissors" class="icon-xl"></i></div>
+                    <div>
+                        <div class="service-name">Corte Masculino</div>
+                        <div class="service-desc">Cortes clássicos e contemporâneos executados com precisão cirúrgica
+                            por nossos mestres barbeiros.</div>
+                    </div>
+                    <div class="service-price">A partir de R$ 80</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i data-lucide="feather" class="icon-xl"></i></div>
+                    <div>
+                        <div class="service-name">Barba</div>
+                        <div class="service-desc">Modelagem, aparagem e tratamento completo para realçar o seu estilo
+                            com impecável atenção aos detalhes.</div>
+                    </div>
+                    <div class="service-price">A partir de R$ 60</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i data-lucide="crown" class="icon-xl"></i></div>
+                    <div>
+                        <div class="service-name">Combo Premium</div>
+                        <div class="service-desc">A experiência completa: corte, barba, hidratação e finalização com
+                            produtos de luxo importados.</div>
+                    </div>
+                    <div class="service-price">A partir de R$ 150</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i data-lucide="sparkles" class="icon-xl"></i></div>
+                    <div>
+                        <div class="service-name">Pigmentação</div>
+                        <div class="service-desc">Técnica exclusiva para cobrir falhas e uniformizar a barba, devolvendo
+                            densidade e naturalidade.</div>
+                    </div>
+                    <div class="service-price">A partir de R$ 120</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrap">
+                    <img src="https://images.unsplash.com/photo-1773904215697-e6c21fc27ac2?w=800&h=900&fit=crop&auto=format"
+                        alt="Interior da Black Crown Barber" />
+                    <div class="about-badge">
+                        <div class="about-badge-num">10+</div>
+                        <div class="about-badge-text">Anos de<br>Tradição</div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <div class="eyebrow"><span>Nossa História</span></div>
+                    <h2 class="section-title section-title-spaced">A Arte do Barbeiro<br><em
+                            class="highlight-gold">Reinventada</em></h2>
+                    <p>Fundada em 2014, a Black Crown Barber nasceu com uma missão clara: elevar o padrão do cuidado
+                        masculino no Brasil. Inspirados nas grandes barbearias de Nova York e Londres, criamos um espaço
+                        onde tradição e modernidade coexistem com perfeição.</p>
+                    <p>Cada detalhe foi pensado para proporcionar uma experiência de luxo — desde produtos premium
+                        importados até a playlist curada e o café especial servido enquanto você aguarda.</p>
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <div class="about-stat-value">10+</div>
+                            <div class="about-stat-label">Anos de Experiência</div>
+                        </div>
+                        <div class="about-stat">
+                            <div class="about-stat-value">5.000+</div>
+                            <div class="about-stat-label">Clientes Atendidos</div>
+                        </div>
+                        <div class="about-stat">
+                            <div class="about-stat-value">4.9</div>
+                            <div class="about-stat-label">Estrelas Google</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <div class="container">
+            <div class="gallery-header">
+                <div>
+                    <div class="eyebrow"><span>Nosso Trabalho</span></div>
+                    <h2 class="section-title">Galeria</h2>
+                </div>
+                <a href="#" class="gallery-link">Ver Todos <i data-lucide="chevron-right"
+                        class="icon-sm"></i></a>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=600&h=700&fit=crop&auto=format"
+                        alt="Homem na cadeira de barbeiro" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i data-lucide="chevron-right"
+                                class="icon-md"></i></div>
+                    </div>
+                </div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1647140655214-e4a2d914971f?w=600&h=700&fit=crop&auto=format"
+                        alt="Barbeiro com tesoura" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i data-lucide="chevron-right"
+                                class="icon-md"></i></div>
+                    </div>
+                </div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1630827020718-3433092696e7?w=600&h=700&fit=crop&auto=format"
+                        alt="Barba estilizada" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i data-lucide="chevron-right"
+                                class="icon-md"></i></div>
+                    </div>
+                </div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1635273051937-a0ddef9573b6?w=600&h=700&fit=crop&auto=format"
+                        alt="Cliente durante o corte" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i data-lucide="chevron-right"
+                                class="icon-md"></i></div>
+                    </div>
+                </div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?w=600&h=700&fit=crop&auto=format"
+                        alt="Barbeiro profissional" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i data-lucide="chevron-right"
+                                class="icon-md"></i></div>
+                    </div>
+                </div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1702865262133-c10351acc1ca?w=600&h=700&fit=crop&auto=format"
+                        alt="Cadeira luxuosa" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i data-lucide="chevron-right"
+                                class="icon-md"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos">
+        <div class="container">
+            <div class="testimonials-header">
+                <div class="center-eyebrow"><span>Avaliações</span></div>
+                <h2 class="section-title">O Que Dizem Nossos Clientes</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars"><i data-lucide="star" class="icon-sm gold-fill"></i><i
+                            data-lucide="star" class="icon-sm gold-fill"></i><i data-lucide="star"
+                            class="icon-sm gold-fill"></i><i data-lucide="star"
+                            class="icon-sm gold-fill"></i><i data-lucide="star"
+                            class="icon-sm gold-fill"></i></div>
+                    <p class="testimonial-text">"Melhor barbearia de São Paulo, sem dúvida. O nível de atenção ao
+                        detalhe é absurdo — saio de lá parecendo outra pessoa. Vou há três anos e nunca decepcionou."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RM</div>
+                        <div>
+                            <div class="author-name">Rafael Mendes</div>
+                            <div class="author-role">Designer</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars"><i data-lucide="star" class="icon-sm gold-fill"></i><i
+                            data-lucide="star" class="icon-sm gold-fill"></i><i data-lucide="star"
+                            class="icon-sm gold-fill"></i><i data-lucide="star"
+                            class="icon-sm gold-fill"></i><i data-lucide="star"
+                            class="icon-sm gold-fill"></i></div>
+                    <p class="testimonial-text">"O combo premium mudou completamente minha relação com a barbearia. O
+                        ambiente é incrível, o café é excelente e os profissionais são de altíssimo nível."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">CD</div>
+                        <div>
+                            <div class="author-name">Carlos Drummond</div>
+                            <div class="author-role">Arquiteto</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars"><i data-lucide="star" class="icon-sm gold-fill"></i><i
+                            data-lucide="star" class="icon-sm gold-fill"></i><i data-lucide="star"
+                            class="icon-sm gold-fill"></i><i data-lucide="star"
+                            class="icon-sm gold-fill"></i><i data-lucide="star"
+                            class="icon-sm gold-fill"></i></div>
+                    <p class="testimonial-text">"Fui por indicação de um amigo e não me arrependo. A pigmentação da
+                        barba ficou perfeita. Atendimento impecável do começo ao fim."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">TO</div>
+                        <div>
+                            <div class="author-name">Thiago Oliveira</div>
+                            <div class="author-role">Advogado</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta">
+        <div class="container relative-z1">
+            <div class="cta-icons"><i data-lucide="crown" class="icon-md"></i></div>
+            <h2 class="cta-title">Pronto para renovar<br><em>seu estilo?</em></h2>
+            <p class="cta-text">Reserve seu horário agora e experimente o padrão Black Crown — onde cada visita é um
+                ritual de excelência.</p>
+            <button class="btn-primary btn-primary-large">
+                Agendar Atendimento <i data-lucide="chevron-right" class="icon-sm"></i>
+            </button>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="#" class="logo footer-logo">
+                        <div class="logo-icon"><i data-lucide="crown" class="icon-md"></i></div>
+                        <div>
+                            <div class="logo-text-main">BLACK CROWN</div>
+                            <div class="logo-text-sub">Barber</div>
+                        </div>
+                    </a>
+                    <p class="footer-desc">Elevando o padrão da barbearia masculina desde 2014.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i data-lucide="instagram"
+                                class="icon-sm"></i></a>
+                        <a href="#" class="social-link"><i data-lucide="facebook"
+                                class="icon-sm"></i></a>
+                        <a href="#" class="social-link"><i data-lucide="twitter"
+                                class="icon-sm"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="footer-col-title">Navegação</div>
+                    <div class="footer-links"><a href="#hero">Home</a><a href="#servicos">Serviços</a><a
+                            href="#galeria">Galeria</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></div>
+                </div>
+                <div>
+                    <div class="footer-col-title">Serviços</div>
+                    <div class="footer-links"><a href="#">Corte Masculino</a><a href="#">Barba</a><a href="#">Combo
+                            Premium</a><a href="#">Pigmentação</a></div>
+                </div>
+                <div>
+                    <div class="footer-col-title">Contato</div>
+                    <div class="contact-item"><i data-lucide="map-pin"
+                            class="icon-sm gold-color icon-no-shrink"></i><span>Rua
+                            Oscar Freire, 980<br>Jardins, São Paulo — SP</span></div>
+                    <div class="contact-item"><i data-lucide="phone"
+                            class="icon-sm gold-color icon-no-shrink"></i><a
+                            href="tel:+551199999999">(11) 99999-9999</a></div>
+                    <div class="footer-stars"><i data-lucide="star" class="icon-xs gold-fill"></i><i
+                            data-lucide="star" class="icon-xs gold-fill"></i><i data-lucide="star"
+                            class="icon-xs gold-fill"></i><i data-lucide="star"
+                            class="icon-xs gold-fill"></i><i data-lucide="star"
+                            class="icon-xs gold-fill"></i><span>4.9 no Google</span></div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Black Crown Barber. Todos os direitos reservados.</p>
+                <div class="footer-bottom-links"><a href="#">Política de Privacidade</a><a href="#">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src = "script.js"></script>
+
+</body>
+
+</html>
